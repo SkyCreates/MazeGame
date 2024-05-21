@@ -135,7 +135,7 @@ def game_loop(level, score):
         draw_text(f'Score: {live_score}', small_font, WHITE, screen, WIDTH - 150, 10)
 
         pygame.display.update()
-        clock.tick(15)  # Adjust FPS for smoother movement
+        clock.tick(18)  # Adjust FPS for smoother movement
 
         if player_x == exit_x and player_y == exit_y:
             print(f"Level {level} completed with {move_count} moves!")
