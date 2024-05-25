@@ -7,7 +7,7 @@ pygame.display.set_caption("Maze Game")
 
 # Screen dimensions
 WIDTH, HEIGHT = 800, 600
-PADDING = 40  # Padding to avoid text overlap with the maze
+PADDING = 30  # Padding to avoid text overlap with the maze
 
 # Colors
 WHITE = (255, 255, 255)
@@ -68,7 +68,7 @@ def game_loop(level, score):
     print(f"Starting game loop for level {level}...")
 
     # Calculate the grid size based on the level to create the zoom-out effect
-    base_grid_size = 40
+    base_grid_size = 50
     grid_size = max(20, base_grid_size - level)  # Decrease grid size with each level but not less than 20
 
     player_x, player_y = 0, 0
