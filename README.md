@@ -26,7 +26,7 @@ This is a maze game created using Python and Pygame. Navigate through procedural
 
 ## Releases
 
-You can download the executable version of the game from the [Releases](https://github.com/SkyCreates/Maze-Game/releases/](https://github.com/SkyCreates/MazeGame/releases/tag/v1.0)) section.
+You can download the executable version of the game from the [Releases]((https://github.com/SkyCreates/MazeGame/releases/tag/v1.0)) section.
 
 ## License
 
